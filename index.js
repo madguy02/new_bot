@@ -87,7 +87,7 @@ function sendGenericMessage(sender) {
         qs: {access_token:"EAATZC3u0bI38BAGCFPrKTIKAKoe3UV33CWSAeZBLuw4QMN2YbzbCwmzIDz8x7pr7EbpCZBHuVbfWYjSPBejro5wfiHq7IE8YGgoThMmtOWNJhpKPJHixJE4ZBV1H5kRbpuG8DJOTCF9h9fHHJEuVhxzieWUKSQdm6UNH0npPSgZDZD"},
         method: 'POST',
         json: {
-            recipient: {id:1269428656402386},
+            recipient: {id:"100000057917978"},
             message: messageData,
         }
     }, function(error, response, body) {
