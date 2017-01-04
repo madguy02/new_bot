@@ -35,10 +35,10 @@ function sendTextMessage(sender, text) {
     let messageData = { text:text }
     request({
         url: 'https://graph.facebook.com/v2.6/me/messages',
-        qs: {access_token:token},
+        qs: {access_token:"EAATZC3u0bI38BAGCFPrKTIKAKoe3UV33CWSAeZBLuw4QMN2YbzbCwmzIDz8x7pr7EbpCZBHuVbfWYjSPBejro5wfiHq7IE8YGgoThMmtOWNJhpKPJHixJE4ZBV1H5kRbpuG8DJOTCF9h9fHHJEuVhxzieWUKSQdm6UNH0npPSgZDZD"},
         method: 'POST',
         json: {
-            recipient: {id:sender},
+            recipient: {id:"100000057917978"},
             message: messageData,
         }
     }, function(error, response, body) {
